@@ -79,6 +79,7 @@ MRuby::Build.new('test') do |conf|
   conf.gem :github => 'mattn/mruby-http'
   conf.gem :github => 'mattn/mruby-json'
   conf.gem :github => 'iij/mruby-env'
+  conf.gem :github => 'matsumotory/mruby-redis'
 
   # include the default GEMs
   conf.gembox 'full-core'

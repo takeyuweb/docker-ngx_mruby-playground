@@ -21,3 +21,11 @@ $ vim conf.d/nginx.conf
 ### backquote
 
 http://127.0.0.1:8080/backquote
+
+### Redis
+
+http://127.0.0.1:8080/redis/set?key=hoge&value=fuga
+
+http://127.0.0.1:8080/redis/get?key=hoge
+
+http://127.0.0.1:8080/redis/set?key=dummy
