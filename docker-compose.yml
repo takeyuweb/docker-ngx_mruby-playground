@@ -7,7 +7,7 @@ services:
     environment:
       REDIS_URL: redis://redis:6379/1
     volumes:
-    - ./conf/nginx.conf:/usr/local/nginx/conf/nginx.conf
+    - ./conf.d:/usr/local/nginx/conf.d
     ports:
     - '8080:80'
     depends_on:
