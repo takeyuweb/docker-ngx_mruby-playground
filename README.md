@@ -29,3 +29,7 @@ http://127.0.0.1:8080/redis/set?key=hoge&value=fuga
 http://127.0.0.1:8080/redis/get?key=hoge
 
 http://127.0.0.1:8080/redis/set?key=dummy
+
+### Background
+
+http://127.0.0.1:8080/background
