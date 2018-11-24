@@ -40,4 +40,8 @@ http://127.0.0.1:8080/access/allow
 
 http://127.0.0.1:8080/access/deny
 
+### Rewrite
+
+http://127.0.0.1:8080/rewrite/hogehoge/test.txt
+
 
